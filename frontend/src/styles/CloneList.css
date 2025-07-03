@@ -1,0 +1,18 @@
+.clone-list {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.clone-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.clone-list th,
+.clone-list td {
+  border: 1px solid #eee;
+  padding: 10px;
+  text-align: left;
+}

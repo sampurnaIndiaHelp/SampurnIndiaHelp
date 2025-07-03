@@ -1,0 +1,50 @@
+.admin-table-container {
+  padding: 30px;
+  background: #fff;
+  border-radius: 16px;
+  max-width: 95%;
+  margin: 40px auto;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+}
+
+.admin-table-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.admin-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  color: #374151;
+}
+
+.admin-table-container th, .admin-table-container td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.admin-table-container th {
+  background-color: #f3f4f6;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.status.working {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.status.non-working {
+  background-color: #fee2e2;
+  color: #991b1b;
+}

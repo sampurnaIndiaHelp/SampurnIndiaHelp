@@ -1,0 +1,62 @@
+.payment-section {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+  margin-top: 1rem;
+}
+
+.payment-level {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.payment-level:last-child {
+  border-bottom: none;
+}
+
+.payment-level h4 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.payment-level form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.payment-level input,
+.payment-level textarea {
+  flex: 1 1 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.payment-level input[type="file"] {
+  padding: 4px;
+}
+
+.payment-level button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .payment-level form {
+    flex-direction: column;
+  }
+
+  .payment-level input,
+  .payment-level textarea {
+    width: 100%;
+  }
+}

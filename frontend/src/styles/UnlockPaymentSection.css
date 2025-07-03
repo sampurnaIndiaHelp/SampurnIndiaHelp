@@ -1,0 +1,46 @@
+.unlock-section {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.unlock-box {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px dashed #aaa;
+  background-color: #f9f9f9;
+}
+
+.status.approved {
+  color: green;
+  font-weight: bold;
+}
+
+.status.pending {
+  color: gray;
+}
+
+.pay-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.unlock-modal {
+  margin-top: 20px;
+  background: #ffe;
+  padding: 20px;
+  border: 2px solid #ccc;
+}
+
+.cancel {
+  margin-left: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}

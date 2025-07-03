@@ -1,0 +1,74 @@
+.hit-counter-section {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    color: #222;
+}
+
+.hit-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #0d3c61;
+}
+
+.hit-subtitle {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 40px;
+}
+
+.hit-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hit-card {
+    background: #f8faff;
+    border-radius: 12px;
+    padding: 30px 25px;
+    width: 220px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hit-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.hit-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hit-count {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: #2b8ae2;
+}
+
+.hit-label {
+    margin-top: 10px;
+    font-size: 1.05rem;
+    color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hit-cards {
+        gap: 20px;
+    }
+
+    .hit-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hit-card {
+        width: 90%;
+    }
+}

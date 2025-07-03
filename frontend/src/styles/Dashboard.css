@@ -1,0 +1,205 @@
+.dashboard {
+  font-family: "Segoe UI", sans-serif;
+  padding: 20px;
+  background: linear-gradient(to right, #f8fbff, #e8f0ff);
+  min-height: 100vh;
+}
+
+/* Header Section */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #ffffff, #f0f4ff);
+  padding: 20px 25px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+  transition: all 0.3s ease;
+}
+
+.dashboard-header h2 {
+  margin: 0 0 5px;
+  font-size: 24px;
+  color: #222;
+}
+
+.dashboard-header p {
+  margin: 2px 0;
+  color: #555;
+  font-size: 15px;
+}
+
+.dashboard-header button {
+  background: linear-gradient(to right, #ff5858, #f857a6);
+  color: #fff;
+  padding: 10px 18px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.dashboard-header button:hover {
+  background: linear-gradient(to right, #f43b47, #453a94);
+}
+
+/* Referral Section */
+.referral-section {
+  margin-bottom: 35px;
+  padding: 20px;
+  background: #ffffff;
+  border-left: 6px solid #4f46e5;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.referral-section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+.income-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.card {
+  background: linear-gradient(to bottom right, #ffffff, #f3f4f6);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: all 0.3s ease;
+  border-left: 6px solid #6366f1;
+}
+
+.card h3 {
+  font-size: 17px;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.card.total {
+  background: linear-gradient(to right, #d1fae5, #a7f3d0);
+  border-left: 6px solid #10b981;
+}
+
+.card.clickable {
+  cursor: pointer;
+  border-left-color: #3b82f6;
+}
+
+.card.clickable:hover {
+  background-color: #e0f2fe;
+}
+
+
+
+
+.downline-table {
+  margin-top: 40px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.downline-table h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #374151;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.downline-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  color: #333;
+}
+
+.downline-table th, .downline-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.downline-table th {
+  background: #f3f4f6;
+  font-weight: 600;
+  color: #111827;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.status.working {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status.non-working {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.alert-card {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  color: #856404;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.alert-card h3 {
+  margin: 0 0 10px;
+}
+
+.alert-card .pay-btn,
+.alert-card button {
+  background-color: #ffc107;
+  padding: 10px 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+.alert-card .pay-btn:hover,
+.alert-card button:hover {
+  background-color: #e0a800;
+}
+
+.alert-card.sponsor {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+}

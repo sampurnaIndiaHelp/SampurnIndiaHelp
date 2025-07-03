@@ -1,0 +1,154 @@
+.level-tree {
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f5f7fb;
+  border-radius: 16px;
+  max-width: 900px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  animation: fadeSlide 0.5s ease;
+}
+
+.level-tree h2 {
+  margin-bottom: 25px;
+  font-size: 26px;
+  color: #222;
+  font-weight: 600;
+  text-align: center;
+}
+
+.level-box {
+  margin-bottom: 30px;
+  border-left: 5px solid #007bff;
+  padding-left: 18px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
+}
+
+.level-box h3 {
+  margin: 0 0 15px;
+  color: #007bff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.level-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.level-box li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #444;
+}
+
+.level-box li:last-child {
+  border-bottom: none;
+}
+
+.userid {
+  font-weight: bold;
+  color: #000;
+}
+
+/* Fade animation */
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Breakpoints */
+
+@media (max-width: 1024px) {
+  .level-tree {
+    padding: 24px;
+  }
+
+  .level-tree h2 {
+    font-size: 24px;
+  }
+
+  .level-box h3 {
+    font-size: 18px;
+  }
+
+  .level-box li {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .level-tree {
+    padding: 20px;
+  }
+
+  .level-box {
+    padding: 16px;
+  }
+
+  .level-tree h2 {
+    font-size: 22px;
+  }
+
+  .level-box li {
+    font-size: 14.5px;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 580px) {
+  .level-tree {
+    padding: 18px;
+  }
+
+  .level-tree h2 {
+    font-size: 20px;
+  }
+
+  .level-box {
+    padding: 14px;
+  }
+
+  .level-box li {
+    font-size: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .level-tree {
+    padding: 16px;
+  }
+
+  .level-tree h2 {
+    font-size: 18px;
+  }
+
+  .level-box {
+    padding: 12px;
+  }
+
+  .level-box h3 {
+    font-size: 16px;
+  }
+
+  .level-box li {
+    font-size: 13px;
+    gap: 6px;
+  }
+}

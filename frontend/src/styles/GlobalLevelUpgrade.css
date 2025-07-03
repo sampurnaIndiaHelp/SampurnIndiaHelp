@@ -1,0 +1,22 @@
+.level-upgrade-card {
+  background: #f3f7ff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.level-upgrade-card h3 {
+  margin-bottom: 10px;
+}
+.level-upgrade-card button {
+  padding: 8px 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.status-msg {
+  margin-top: 10px;
+  color: #1a1a1a;
+  font-weight: 500;
+}

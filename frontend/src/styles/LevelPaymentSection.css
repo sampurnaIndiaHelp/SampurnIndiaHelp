@@ -1,0 +1,164 @@
+.upload-payment {
+  background: #f9f9f9;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 12px;
+  max-width: 800px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  animation: fadeSlide 0.5s ease;
+}
+
+.upload-payment h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  font-weight: 600;
+}
+
+.upload-payment form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.upload-payment input[type="text"],
+.upload-payment input[type="file"] {
+  padding: 14px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.upload-payment input:focus {
+  border-color: #198754;
+  outline: none;
+}
+
+.upload-payment button {
+  padding: 12px;
+  background-color: #198754;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.upload-payment button:hover {
+  background-color: #146c43;
+  transform: scale(1.03);
+}
+
+.upload-payment table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.upload-payment th,
+.upload-payment td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 15px;
+}
+
+.upload-payment th {
+  background-color: #198754;
+  color: white;
+  font-weight: 600;
+}
+
+.upload-payment td {
+  background-color: #fefefe;
+}
+
+/* Animation */
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .upload-payment {
+    padding: 25px;
+  }
+
+  .upload-payment h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 800px) {
+  .upload-payment {
+    padding: 22px;
+  }
+
+  .upload-payment input,
+  .upload-payment button {
+    font-size: 15px;
+  }
+
+  .upload-payment th,
+  .upload-payment td {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .upload-payment {
+    padding: 18px;
+  }
+
+  .upload-payment h2 {
+    font-size: 20px;
+  }
+
+  .upload-payment input,
+  .upload-payment button {
+    font-size: 14px;
+  }
+
+  .upload-payment th,
+  .upload-payment td {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .upload-payment {
+    padding: 16px;
+  }
+
+  .upload-payment h2 {
+    font-size: 18px;
+  }
+
+  .upload-payment input,
+  .upload-payment button {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .upload-payment table {
+    font-size: 13px;
+    overflow-x: auto;
+    display: block;
+  }
+}

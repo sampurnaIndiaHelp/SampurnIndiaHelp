@@ -1,0 +1,22 @@
+.global-alert {
+  background: #fffbe0;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #f3c623;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.global-alert h3 {
+  margin-bottom: 10px;
+  color: #b54708;
+}
+
+.global-alert button {
+  background: #facc15;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}

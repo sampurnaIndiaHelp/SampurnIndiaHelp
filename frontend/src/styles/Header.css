@@ -1,0 +1,177 @@
+.topbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #450eeb;
+    padding: 8px 16px;
+    color: rgb(243, 238, 238);
+    font-size: 17px;
+    font-weight: bolder;
+    width: 100%;
+}
+
+.topbar-left ul,
+.topbar-right ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.topbar-left li,
+.topbar-right li {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.topbar-left i {
+    margin-right: 6px;
+}
+
+.topbar-center {
+    flex: 1;
+    max-width: 600px;
+    margin: 10px auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+.topbar-center marquee {
+    width: 100%;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.topbar-center a {
+    color: #fd580b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.topbar-center a:hover {
+    text-decoration: underline;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #000;
+    margin-right: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.social-icon:hover {
+    background: #fd580b;
+    color: #fff;
+}
+
+/* Colors for each icon */
+.facebook {
+    color: #3b5998;
+}
+
+.google-plus {
+    color: #dd4b39;
+}
+
+.twitter {
+    color: #1da1f2;
+}
+
+.instagram {
+    color: #e4405f;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1280px) {
+    .topbar {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .topbar-center {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 850px) {
+    .topbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .topbar-left,
+    .topbar-right {
+        justify-content: center;
+        margin-top: 8px;
+    }
+
+    .topbar-right ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 720px) {
+    .topbar {
+        font-size: 12px;
+    }
+
+    .topbar-center {
+        margin: 8px 0;
+    }
+
+    .topbar-left ul,
+    .topbar-right ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .topbar {
+        padding: 6px;
+    }
+
+    .topbar-left li,
+    .topbar-right li {
+        margin: 5px;
+    }
+
+    .social-icon {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+@media (max-width: 400px) {
+    .topbar {
+        font-size: 11px;
+    }
+
+    .topbar-center p {
+        line-height: 1.2;
+    }
+
+    .topbar-left,
+    .topbar-right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topbar-right ul {
+        padding: 0;
+    }
+}

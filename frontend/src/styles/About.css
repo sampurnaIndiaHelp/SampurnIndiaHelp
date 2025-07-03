@@ -1,0 +1,77 @@
+.about-us-section {
+    background-color: #fff;
+    color: #000;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-us-container {
+    max-width: 700px;
+}
+
+.about-heading {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #f97316;
+    /* a vibrant orange */
+    margin-bottom: 20px;
+}
+
+.about-intro {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.mission-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f97316;
+    margin-bottom: 15px;
+}
+
+.mission-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 45px;
+}
+
+.read-more-btn {
+    background: linear-gradient(45deg, #f97316, #f59e0b);
+    border: none;
+    color: white;
+    padding: 14px 32px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(249, 115, 22, 0.5);
+    transition: all 0.3s ease;
+}
+
+.read-more-btn:hover {
+    background: linear-gradient(45deg, #f59e0b, #f97316);
+    box-shadow: 0 8px 20px rgba(245, 158, 11, 0.7);
+    transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+    .about-heading {
+        font-size: 2rem;
+    }
+
+    .about-intro,
+    .mission-text {
+        font-size: 1rem;
+    }
+
+    .read-more-btn {
+        padding: 12px 24px;
+        font-size: 1rem;
+    }
+}

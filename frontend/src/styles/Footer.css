@@ -1,0 +1,21 @@
+.footer {
+  background-color: #101820;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.footer .brand {
+  font-weight: bold;
+  color: #00bcd4; /* Optional: Brand color */
+}
+
+.footer sup {
+  font-size: 10px;
+  vertical-align: top;
+}

@@ -1,0 +1,63 @@
+/* 📁 styles/SponsorGlobalApprovals.css */
+
+.sponsor-approvals {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sponsor-approvals h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.approval-card {
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.approval-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.approval-card img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.approval-card p {
+  margin: 6px 0;
+  color: #444;
+}
+
+.approval-actions {
+  margin-top: 12px;
+}
+
+.approval-actions button {
+  padding: 8px 14px;
+  margin-right: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.approval-actions button:first-child {
+  background-color: #22c55e;
+  color: white;
+}
+
+.approval-actions button:last-child {
+  background-color: #ef4444;
+  color: white;
+}

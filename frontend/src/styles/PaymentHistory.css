@@ -1,0 +1,33 @@
+.payment-history {
+  padding: 20px;
+}
+
+.payment-history h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.payment-history table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+}
+
+.payment-history th,
+.payment-history td {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.payment-history th {
+  background-color: #f7f7f7;
+}
+
+.payment-history a {
+  color: #007bff;
+  text-decoration: underline;
+}

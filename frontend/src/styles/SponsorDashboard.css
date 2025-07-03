@@ -1,0 +1,44 @@
+.sponsor-dashboard {
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f7faff;
+  min-height: 100vh;
+}
+
+.sponsor-dashboard h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.payment-list {
+  display: grid;
+  gap: 20px;
+}
+
+.payment-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.payment-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.payment-card button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 14px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.payment-card button:hover {
+  background-color: #218838;
+}
